@@ -16,7 +16,7 @@ babel (n).
 
   * Click New Repo.
   * We'll call it https://github.com/babel-publishing/howto but you can call yours anything.
-  * Then click "Initialize this repository with a README" and set it to use The Unlicense.
+  * Then click "Initialize this repository with a README". We'll set ours to use The Unlicense.
 
 ### 2. clone it locally
 
