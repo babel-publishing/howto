@@ -141,6 +141,6 @@ You'll see the new commit from GitHub.
 
 Click "Pull GitHub changes into Overleaf."
 
-Congratulations, you're published.
+Congratulations, [you're published](https://www.overleaf.com/read/zhbvhrpjxsxb).
 
 Let's go do science.
