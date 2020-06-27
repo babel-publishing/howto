@@ -15,7 +15,7 @@ babel (n).
 ### 1. make a repo on github
 
   * Click New Repo.
-  * We'll call it https://github.com/babel-publishing/howto but you can call yours anything.
+  * We'll call it `babel-publishing/howto` but you can call yours anything.
   * Then click "Initialize this repository with a README". We'll set ours to use The Unlicense.
 
 ### 2. clone it locally
@@ -30,18 +30,14 @@ cd howto
 ```bash
 mkdir code
 
-cat > code/__main__.py << EOF
-print('Hello, world.')
-EOF
+echo "print('Hello, world.')" > code/__main__.py
+
+echo '__pycache__' > .gitignore
 
 cat > code/README.md << EOF
 # babel
 
 This is the code.
-EOF
-
-cat > .gitignore << EOF
-__pycache__
 EOF
 
 chmod +x code/__main__.py
@@ -64,7 +60,7 @@ cat > paper/main.tex << "EOF"
 
 \title{Paper}
 \author{Babel Publishing}
-\date{June 2020}
+\date{Hindsight, 2020}
 
 \begin{document}
 
