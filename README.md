@@ -10,7 +10,7 @@ babel (n).
 3. science minus academia.
 ```
 
-# howto
+# how to science
 
 ### 1. make a repo on github
 
