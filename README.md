@@ -71,7 +71,7 @@ cat > paper/main.tex << "EOF"
 \end{document}
 EOF
 
-git add paper
+git add .
 git commit -m "Add paper."
 ```
 
